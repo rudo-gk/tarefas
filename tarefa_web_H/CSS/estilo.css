@@ -1,0 +1,70 @@
+h1{
+    background: linear-gradient(to right, red, yellow);
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: yellow; 
+
+}
+
+h3{
+    color: orangered;
+    font-size: 25px;
+
+
+}
+ body {
+    background-image: url("../imagens/foodtruck.jpg");
+    background-size: 100% 115%;
+    
+ }
+
+
+p{
+    text-align: center;
+    
+
+}
+
+button{
+    background: linear-gradient(to right, orangered, yellow);
+    width: 200px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+
+div{
+    color: white;
+    
+    
+}
+
+link {
+
+    color: black;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.meu-bloco {
+    display: block;       /* Define como nível de bloco */
+    width: 300px;         /* Largura fixa */
+    padding: 20px;        /* Espaçamento interno */
+    border: 2px solid black; /* Borda visível */
+    margin: 10px;               /* Espaçamento externo */
+    background: linear-gradient(to right, red, orange);         /* Cor de fundo */
+    border-radius: 20%;
+}
+
+footer{
+    color: white;
+}

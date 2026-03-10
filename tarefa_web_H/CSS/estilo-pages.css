@@ -1,0 +1,14 @@
+h1 {
+    color: white;
+    background-color: orangered;
+}
+
+body {
+    background-image: url("../imagens/preto.webp");
+    background-size: 200% 200%;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+}
