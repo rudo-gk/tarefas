@@ -1,0 +1,109 @@
+body {
+    background-image: url("../imagens/cinema.png");
+    background-repeat: repeat ;
+    background-size: 500px;
+    min-height: 100vh; 
+    margin: 10;
+
+}
+
+main {
+  flex: 1; /* empurra o footer para baixo */
+}
+
+header {
+    background: linear-gradient(to right, rgb(69, 128, 255), rgb(69, 218, 255));
+    border-radius: 12PX;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+
+
+
+
+.titulo {
+    color: white;
+    text-align: center;
+    font-size: 50px ;
+}
+
+.devorador {
+    height: 200px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    padding: 0 30px;
+   
+    
+
+}
+
+.devorador :hover {
+    transform: scale(1.03);
+    cursor:grabbing;
+    transition-duration: transform 0.5s ;
+
+}
+
+.supermario {
+    height: 200px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.supermario :hover {
+    transform: scale(1.03);
+    cursor:grabbing;
+    transition-duration: transform 0.5s ;
+
+}
+
+.card {
+    background-color: rgb(255, 200, 141);
+    text-align: center;
+    height: 150px;
+    color: black;
+    border-radius: 12px;
+    padding: 20px;
+    
+}
+
+    
+
+.texto {
+        background-color: rgb(255, 200, 141);
+        height: 150px;
+        color: black;
+        border-radius: 12px;
+        padding: 20px;
+}
+
+footer {
+  background: gold;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+
+
+.emoji {
+    font-size: 50px;
+    text-align: center;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
