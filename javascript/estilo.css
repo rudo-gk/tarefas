@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(41, 41, 41);
+    margin: 0;
+}
+
+h1 {
+    background-color: rgb(0, 110, 212);
+    width: 100%;
+    color: white;
+    height: 50px;
+    
+}
+
+.concluido {
+    background-color: green;
+    width: 100px;
+}
+
+
+.pendente {
+    background-color: red;
+    width: 100px;
+}
+
+.em-andamento {
+    background-color: orange;
+    width: 100px;
+}
+
