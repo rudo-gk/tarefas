@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    </head>
+<body>
+    
+    
+    <h1>lista de tarefas</h1>
+        
+    <section>
+        <div class="div-form">
+            <input type="text" id="tarefa" placeholder="digite a tarefa">
+
+            <select id="status">
+                <option value="Concluido">Concluido</option>
+                <option value="Pendente">Pendente</option>
+                <option value="Em andamento">Em andamento</option>
+            </select>
+
+            <button onclick="anotar_agora()" class="inserir">anotar</button>
+
+            <br><br>
+        </div>
+        <div id="container" style="display: flex; flex-wrap: wrap; gap: 8px;"></div>
+
+        
+        
+        <script src="Java Script/javascript.js"></script>
+    </section>        
+
+
+
+
+</body>
+</html>

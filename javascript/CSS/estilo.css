@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(41, 41, 41);
+    margin: 0;
+}
+
+h1 {
+    background-color: rgb(0, 110, 212);
+    width: 100%;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+
+.div-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+.inserir {
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.inserir:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+select {
+    border-radius: 15px;
+    padding: 5px;
+}
+
+input {
+    border-radius: 15px;
+    padding: 5px;
+}
